@@ -1,5 +1,5 @@
 # Initialization
-AC_INIT([VHDL MFM], [1.0.0], [st.summerlin@gmail.com])
+AC_INIT([Variable MFM], [1.0.0], [st.summerlin@gmail.com])
 AC_CONFIG_SRCDIR([src/main.cc])
 AM_INIT_AUTOMAKE([-Wall foreign subdir-objects])
 AM_SILENT_RULES([yes])
