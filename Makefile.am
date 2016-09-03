@@ -1,4 +1,5 @@
 CLEANFILES = *~
+AM_CXXFLAGS = -std=c++11
 
 bin_PROGRAMS = vmfm
 

@@ -6,6 +6,7 @@ AM_SILENT_RULES([yes])
 
 # Shopping List
 AC_PROG_CXX
+AX_CXX_COMPILE_STDCXX_11
 PKG_PROG_PKG_CONFIG
 
 # Libraries
