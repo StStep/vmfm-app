@@ -2,10 +2,8 @@
 
 #include <iostream>
 
-#include <gtkmm/application.h>
-#include <glibmm/fileutils.h>
-#include <glibmm/markup.h>
-#include <gtkmm/builder.h>
+#include <gtkmm.h>
+#include <glibmm.h>
 
 int main (int argc, char *argv[])
 {
