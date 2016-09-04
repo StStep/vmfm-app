@@ -10,7 +10,9 @@ AX_CXX_COMPILE_STDCXX_11
 PKG_PROG_PKG_CONFIG
 
 # Libraries
-PKG_CHECK_MODULES([VMFM], [gtkmm-3.0 >= 3.8.0])
+PKG_CHECK_MODULES([VMFM], \
+              [gtkmm-3.0 >= 3.8.0] \
+              [glib-2.0 >= 2.24.1])
 
 # Output
 AC_CONFIG_FILES([Makefile])
